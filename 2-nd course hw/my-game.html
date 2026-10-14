@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="my-game.css">
+</head>
+
+<body>
+    <section class="game">
+        <img class="game__star game__star--1" src="img/Star 3.svg" alt="">
+        <img class="game__star game__star--2" src="img/Star 2.svg" alt="">
+        <img class="game__star game__star--3" src="img/Vector.svg" alt="">
+        <img class="game__star game__star--4" src="img/Vector 4780.svg" alt="">
+        <img class="game__star game__star--5" src="img/Star 5.svg" alt="">
+        <img class="game__star game__star--6" src="img/Star 4.svg" alt="">
+        <img class="game__star game__star--7" src="img/Vector 4791.svg" alt="">
+        <img class="game__star game__star--8" src="img/Vector 4782.svg" alt="">
+        <img class="game__star game__star--9" src="img/Vector 4781.svg" alt="">
+        <img class="game__star game__star--10" src="img/Vector 4788.svg" alt="">
+        <div class="game__wrapper">
+            <h1 class="game__title">
+                Добро пожаловать <br> на мой сайт мини-игр
+            </h1>
+            <p class="game__subtitle">
+                Тебе предстоит пройти несколько увлекательных игр.<br> Если готов, нажимай <strong>«Поехали!»</strong> и <strong>приступай</strong>
+            </p>
+            <button class="game__button" onclick="startGame()">
+                Поехали!
+            </button>
+            <div id="gameContainer" class="game__container"></div>
+        </div>
+        <nav class="navigation">
+            <a href="#quiz">Викторина</a>
+            <a href="#guess-number">Угадай число</a>
+            <a href="#reverse-text">Переверни текст</a>
+            <a href="#simple-arithmetic">Простая арифметика</a>
+            <a href="#rock-paper-scissors">Камень, ножницы, бумага</a>
+            <a href="#simple-quiz">Простая викторина</a>
+            <a href="#random-color">Генератор случайных цветов</a>
+        </nav>
+    </section>
+    <section class="about-games center" >
+        <img class="about-games__star about-games__star--11" src="img/Star 11.svg" alt="">
+        <img class="about-games__star about-games__star--12" src="img/Star 12.svg" alt="">
+        <img class="about-games__star about-games__star--13" src="img/Star 1.svg" alt="">
+        <div class="about-games__box">
+            <h2 class="about-games__title">Об играх</h2>
+            <p class="about-games__description">
+            В моей коллекции представлено 6 игр на разные темы.<br>
+            Игры несложные — в них может поиграть каждый<br>
+            Все игры доступны для пользования.
+            </p>
+            <div id="quiz" class="about-games__wrapper">
+                <div class="about-games__column">
+                    <div class="game-card">
+                        <a class="game-card__image" href="#" target="_blank"></a>
+                        <div class="game-card__content">
+                            <h4 class="game-card__label">Игра № 1</h4>
+                            <p class="game-card__title">
+                            Угадай число
+                            </p>
+                        </div>
+                    </div>
+                    <div class="game-card">
+                        <a class="game-card__image game-card__image--3" href="#" target="_blank"></a>
+                        <div class="game-card__content">
+                            <h4 class="game-card__label">Игра № 4</h4>
+                            <p class="game-card__title">
+                            Камень, <br>ножницы, <br>бумага
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-games__column">
+                    <div class="game-card">
+                        <a class="game-card__image game-card__image--1" href="#" target="_blank"></a>
+                        <div class="game-card__content">
+                            <h4 class="game-card__label">Игра № 2</h4>
+                            <p class="game-card__title">
+                            Простая <br>арифметика
+                            </p>
+                        </div>
+                    </div>
+                    <div class="game-card">
+                        <a class="game-card__image game-card__image--4" href="#" target="_blank"></a>
+                        <div class="game-card__content">
+                            <h4 class="game-card__label">Игра № 5</h4>
+                            <p class="game-card__title">
+                            Простая <br>викторина
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-games__column">
+                    <div class="game-card">
+                        <a class="game-card__image game-card__image--2" href="#" target="_blank"></a>
+                        <div class="game-card__content">
+                            <h4 class="game-card__label">Игра № 3</h4>
+                            <p class="game-card__title">
+                            Переверни текст
+                            </p>
+                        </div>
+                    </div>   
+                    <div class="game-card">
+                        <a class="game-card__image game-card__image--5" href="#" target="_blank"></a>
+                        <div class="game-card__content">
+                            <h4 class="game-card__label">Игра № 6</h4>
+                            <p class="game-card__title">
+                            Генератор <br>случайных <br>цветов
+                            </p>
+                        </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

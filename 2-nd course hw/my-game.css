@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Montserrat, sans-serif;
+}
+.game {
+    min-height: 800px;
+    background-color:#E1FF8F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 120px;
+    position: relative;
+    overflow: hidden;
+}
+.game__star {
+    position: absolute;
+     pointer-events: none;
+}
+.game__star--1 {
+    width: 35px;
+    top: 69px;
+    left: 156px;
+}
+.game__star--2 {
+    width: 57px;
+    top: 94px;
+    left: 63px;
+}
+.game__star--3 {
+    right: 0px;
+}
+.game__star--4 {
+    top: -10px;
+    right: 269px;
+}
+.game__star--5 {
+    width: 35px;
+    top: 538px;
+    right: 455px;
+}
+.game__star--6 {
+    width: 83px;
+    top: 568px;
+    right: 344px;
+}
+.game__star--7 {
+    width: 34px;
+    top: 663px;
+    right: 61px;
+}
+.game__star--8 {
+    width: 220px;
+    top: 379px;
+    right: 0px;
+}
+.game__star--9 {
+    width: 142px;
+    top: 254px;
+    right: 231px;
+}
+.game__star--10 {
+    width: 80px;
+    top: 468px;
+    right: 113px;
+}
+.about-games__wrapper {
+    display: flex;
+    gap: 32px;
+}
+.game__wrapper {
+    max-width: 1440px;
+    width: 100%;
+    margin-top: 196px;
+    margin-bottom: 156px;
+    position: relative;
+    z-index: 1;
+}
+.game__title {
+    font-size: 64px;
+    font-weight: 700;
+    color: #202020;
+}
+.about-games__star {
+    position: absolute;
+    pointer-events: none;
+}
+.about-games__title{
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: 700;
+
+}
+.game__subtitle {
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 24px;
+    padding-bottom: 72px;
+    font-weight: 400;
+    color: #202020;
+}
+.about-games__description {
+    color: #ffffff;
+    font-size: 24px;
+    padding-top: 24px;
+    padding-bottom: 72px;
+}
+.game__button {
+    width: 247px;
+    height: 66px;
+    background-color: #202020;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 32px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.navigation {
+    width: 3220px;
+    height: 90px;
+    background-color: #bcec30;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.navigation a {
+    color: #202020;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+}
+.navigation a:not(:first-child)::before {
+    content: "✦";
+    font-size: 36px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.about-games {
+    background-color: #202027;
+    overflow: hidden;
+}
+.about-games__box{
+    height: 100%;
+    padding-top: 94px;
+    padding-left: 119px;
+    position: relative;
+}
+.about-games__star--11 {
+    width: 31px;
+    top: 1570px;
+    left: 25px;
+}
+.about-games__star--12 {
+    width: 55px;
+    top: 1622px;
+    left: 40px;
+}
+.about-games__star--13 {
+    width: 585px;
+    top: 877px;
+    right: 0px;
+}
+.game-card {
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.about-games__column {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.game-card__image {
+    width: 378px;
+    height: 314px;
+    background-repeat: no-repeat;
+    background-image: url("img/Обложка карточки1.jpg");
+    
+}
+.game-card__image--1 {
+    width: 378px;
+    height: 314px;
+    background-repeat: no-repeat;
+    background-image: url("img/Обложка карточки2.jpg");
+}
+.game-card__image--2 {
+    width: 378px;
+    height: 314px;
+    background-repeat: no-repeat;
+    background-image: url("img/Обложка карточки3.jpg");
+}
+.game-card__image--3 {
+    width: 378px;
+    height: 314px;
+    background-repeat: no-repeat;
+    background-image: url("img/Обложка карточки4.jpg");
+}
+.game-card__image--4 {
+    width: 378px;
+    height: 314px;
+    background-repeat: no-repeat;
+    background-image: url("img/Обложка карточки5.jpg");
+}
+.game-card__image--5 {
+    width: 378px;
+    height: 314px;
+    background-repeat: no-repeat;
+    background-image: url("img/Обложка карточки6.jpg");
+}
+.game-card__content {
+    background-color: #ffffff;
+    padding: 32px 32px 36px 32px;
+}
+.game-card__label {
+    background-color: #f7f7f7;
+    width: 112px;
+    height: 36px;
+    border-radius: 53px;
+    padding: 8px 16px 10px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #202020;
+}
+.game-card__title {
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 24px;
+    font-weight: 400;
+    color: #202020;
+}
